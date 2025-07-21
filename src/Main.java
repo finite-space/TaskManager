@@ -29,7 +29,7 @@ public class Main {
         //Program start
         boolean wantToStay = true;
         while(wantToStay) {
-            System.out.println("Sign Up or Sign In? (/in, /up): ");
+            System.out.println("Sign Up / Sign In? (/in, /up): ");
             String command1 = s.nextLine().toLowerCase();
 
             if (command1.equals("/exit")) wantToStay =false;
